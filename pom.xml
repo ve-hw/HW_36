@@ -54,7 +54,7 @@
 				<version>2.22.2</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>${suite}</suiteXmlFile>
 						<!-- <suiteXmlFile>${suite}</suiteXmlFile> mvn package -Dsuite="testng2.xml" -->
 					</suiteXmlFiles>
 		            <parallel>methods</parallel><threadCount>3</threadCount>
